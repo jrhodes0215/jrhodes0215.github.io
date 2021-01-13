@@ -10,4 +10,15 @@ body {
 #clockbox {
   font-size: 5rem;
   text-align: center;
+  margin: 50px 0;
+}
+
+#shark-img {
+  margin: 0 50%;
+}
+
+#copyright {
+  text-align: center;
+  position: relative;
+  top: 530px;
 }
