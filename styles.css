@@ -19,6 +19,10 @@ body {
 
 #copyright {
   text-align: center;
-  position: relative;
-  top: 530px;
+}
+
+.countdown {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.5rem;
 }
