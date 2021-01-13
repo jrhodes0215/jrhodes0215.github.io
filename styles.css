@@ -1,0 +1,8 @@
+body {
+  background-color: teal;
+}
+
+#clockbox {
+  font-size: 5rem;
+  text-align: center;
+}
