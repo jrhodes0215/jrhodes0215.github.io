@@ -21,8 +21,8 @@ body {
   margin: 50px 0;
 }
 
-#shark-img {
-  width: 650px;
+img[src="images/shark.png"] {
+  width: 25rem;
   display: block;
   margin: 0 auto;
 }
