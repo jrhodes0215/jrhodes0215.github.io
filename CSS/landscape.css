@@ -1,0 +1,50 @@
+/* Landscape */
+@media (min-width: 769px) and (max-width: 999px) {
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#countdown {
+  font-size: 5rem;
+  line-height: 80px;
+  padding: 35px 0;
+}
+
+#clockbox {
+  line-height: 60px;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+}
+
+/* Sharks */
+
+.go-sharks {
+  font-size: 5rem;
+  line-height: 80px;
+}
+
+.full-bg-img {
+  background: url("../images/ocean.jpg") no-repeat center center/cover;
+  height: 250%;
+  z-index: -1;
+}
+
+/* Blues */
+
+.go-blues {
+  font-size: 5rem;
+  line-height: 80px;
+  text-align: center;
+}
+
+.blues-bg {
+  background: radial-gradient(yellow, blue);
+  height: 250%;
+  z-index: -1;
+}
