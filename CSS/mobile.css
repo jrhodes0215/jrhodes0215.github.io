@@ -36,6 +36,12 @@
   line-height: 80px;
 }
 
+.full-bg-img {
+  background: url("../images/ocean.jpg") no-repeat center center/cover;
+  height: 125%;
+  z-index: -1;
+}
+
 /* Blues */
 .blues-img {
   display: none;
@@ -45,4 +51,10 @@
   font-size: 5rem;
   line-height: 80px;
   text-align: center;
+}
+
+.blues-bg {
+  background: radial-gradient(yellow, blue);
+  height: 125%;
+  z-index: -1;
 }
