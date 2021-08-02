@@ -1,9 +1,5 @@
 /* Smartphones */
-@media (max-width: 500px) {
-}
-
-/* Tablet */
-@media (min-width: 501px) and (max-width: 768px) {
+@media (max-width: 649px) {
 }
 
 #navbar ul,
