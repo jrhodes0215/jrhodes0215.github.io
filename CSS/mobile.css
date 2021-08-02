@@ -1,0 +1,47 @@
+/* Smartphones */
+@media (max-width: 500px) {
+}
+
+/* Tablet */
+@media (min-width: 501px) and (max-width: 768px) {
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#countdown {
+  font-size: 5rem;
+  line-height: 80px;
+  padding: 35px 0;
+}
+
+#clockbox {
+  line-height: 60px;
+}
+
+#footer {
+  clear: both;
+  position: relative;
+}
+
+/* Sharks */
+.shark-img {
+  display: none;
+}
+
+.go-sharks {
+  font-size: 5rem;
+  line-height: 80px;
+}
+
+/* Blues */
+.blues-img {
+  display: none;
+}
+
+.go-blues {
+  font-size: 5rem;
+  line-height: 80px;
+}

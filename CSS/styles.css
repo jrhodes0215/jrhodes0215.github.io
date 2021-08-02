@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 2.5em;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Utillity */
+.container {
+  margin: auto;
+  max-width: 1350px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Navbar */
+#navbar {
+  background: teal;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  text-align: center;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #333;
+  color: rgb(2, 163, 163);
+}
+
+/* Sharks Showcase */
+#showcase {
+  height: 600px;
+}
+
+.full-bg-img {
+  background: url("../images/ocean.jpg") no-repeat center center/cover;
+  height: 115%;
+  z-index: -1;
+}
+
+.go-sharks {
+  text-align: center;
+  font-size: 100px;
+  padding: 40px 0;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+#countdown {
+  text-align: center;
+  font-size: 125px;
+  padding: 70px 0;
+}
+
+.shark-img {
+  max-width: 100%;
+  height: auto;
+  background: url("../images/shark.png") no-repeat center;
+  z-index: 1;
+  padding: 150px 0;
+}
+
+#clockbox {
+  text-align: center;
+  font-size: 50px;
+  padding: 20px 0 20px 0;
+}
+
+/* Blues Showcase */
+
+#showcase {
+  height: 600px;
+}
+
+.blues-bg {
+  background: radial-gradient(yellow, blue);
+  height: 125%;
+  z-index: -1;
+}
+
+.go-blues {
+  text-align: center;
+  font-size: 100px;
+  padding: 40px 0;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 50px;
+  padding: 30px 0;
+}
+
+#countdown {
+  text-align: center;
+  font-size: 125px;
+  padding: 70px 0;
+}
+
+.blues-img {
+  height: 350px;
+  background: url("../images/blues-logo.png") no-repeat center;
+  z-index: 1;
+  padding: 20px;
+}
+
+#clockbox {
+  text-align: center;
+  font-size: 50px;
+  padding: 50px 0 30px 0;
+}
+
+/* Footer */
+#footer {
+  background: teal;
+  color: #fff;
+  overflow: auto;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 13px;
+}
